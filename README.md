@@ -1,163 +1,233 @@
-**Human Development Index (HDI) Predictor
-Overview**
 
-The Human Development Index (HDI) Predictor is a Machine Learning-powered web application developed to estimate a country's Human Development Index (HDI) category using key socio-economic indicators. The application integrates data analysis, predictive modeling, and an intuitive web interface to provide meaningful insights into human development.
+<div align="center">
 
-The project demonstrates the practical application of Machine Learning, Data Science, and Full-Stack Web Development by combining predictive analytics with an interactive dashboard.
+# 🌍 Human Development Index (HDI) Prediction System
 
-**Key Features**
-Machine Learning Prediction
+### End-to-End Machine Learning Web Application for Human Development Analysis
 
-**Predicts the Human Development Index based on the following indicators:**
+Predict a country's **Human Development Index (HDI)** using **Machine Learning**, **React**, **Flask**, and **Data Science**.
 
-Life Expectancy at Birth (Health Dimension)
-Expected Years of Schooling (Education Dimension)
-Mean Years of Schooling (Education Dimension)
-Gross National Income (GNI) per Capita (Standard of Living Dimension)
-**Interactive Dashboard**
-Modern and responsive user interface
-Real-time prediction results
-Country-wise input selection
-Interactive visualizations
-Responsive design for desktop and mobile devices
-**Exploratory Data Analysis (EDA)**
+<p align="center">
 
-Provides comprehensive data visualizations including:
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-Web_Framework-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-Correlation Heatmap
-Feature Distribution Plots
-Scatter Plots
-Histogram Analysis
-Box Plot Analysis
-**Prediction Insights**
+</p>
 
-Displays:
-Predicted HDI Category
-Development Level
-Indicator Summary
-Graphical Progress Visualization
-Policy Recommendation Insights
+### 🚀 Quick Links
 
-**Report Generation**
-Export prediction reports
-Download analysis results
-Print-friendly report format
+| Resource | Link |
+|----------|------|
+| 📂 GitHub Repository | https://github.com/siriboddu/Human-Development-Index-Prediction |
+| 🎥 Demo Video | https://drive.google.com/file/d/1sBisHQgeDqlSriCorC-HMMfUnVhj8f1k/view?usp=sharing |
 
-**Prediction History**
+</div>
 
-Stores previous prediction records locally to enable future comparison and analysis.
+---
 
-**Technology Stack**
-Frontend
-React.js
-Vite
-HTML5
-CSS3
-JavaScript
-Tailwind CSS
+# 📖 Overview
 
-**Backend**
-Python
-Flask
+The **Human Development Index (HDI) Prediction System** is a Machine Learning-powered web application developed to estimate a country's Human Development Index using key socio-economic indicators.
 
-**Machine Learning**
-Scikit-learn
-Pandas
-NumPy
-Matplotlib
-Seaborn
+It combines **Machine Learning**, **Data Science**, **React**, **Flask**, and **interactive visualizations** to deliver an intuitive dashboard for HDI prediction and analysis.
 
-**Development Tools**
-Git
-GitHub
-Visual Studio Code
+---
 
-**Project Architecture**
+# ✨ Key Features
+
+- 🤖 Machine Learning-based HDI Prediction
+- 📊 Interactive Dashboard
+- 🌍 Country-wise Prediction
+- 📈 Exploratory Data Analysis (EDA)
+- 📋 Prediction Insights
+- 📄 Report Generation
+- 💾 Prediction History
+- 📱 Responsive Design
+- 🌙 Light & Dark Theme
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Frontend | React, Vite, HTML5, CSS3, JavaScript, Tailwind CSS |
+| Backend | Python, Flask |
+| Machine Learning | Scikit-learn, Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Tools | Git, GitHub, VS Code |
+
+---
+
+# 🏗 System Architecture
+
+```text
 User
-   │
-   ▼
-Frontend (React + Tailwind)
-   │
-   ▼
-Flask REST API
-   │
-   ▼
+ │
+ ▼
+React Frontend
+ │
+ ▼
+Flask Backend
+ │
+ ▼
 Machine Learning Model
-   │
-   ▼
+ │
+ ▼
 Prediction Engine
-   │
-   ▼
-Prediction Result
+ │
+ ▼
+Prediction Results
+```
 
-**Project Structure**
+---
+
+# 🤖 Machine Learning Workflow
+
+```text
+Dataset
+   ↓
+Data Preprocessing
+   ↓
+Exploratory Data Analysis
+   ↓
+Feature Engineering
+   ↓
+Model Training
+   ↓
+Model Evaluation
+   ↓
+Prediction
+   ↓
+Deployment
+```
+
+---
+
+# 📸 Application Screenshots
+
+Replace these placeholders after uploading screenshots.
+
+```text
+assets/images/home.png
+assets/images/dashboard.png
+assets/images/prediction.png
+assets/images/result.png
+```
+
+```html
+<p align="center">
+<img src="assets/images/home.png" width="100%">
+</p>
+
+<p align="center">
+<img src="assets/images/dashboard.png" width="100%">
+</p>
+
+<p align="center">
+<img src="assets/images/prediction.png" width="100%">
+</p>
+
+<p align="center">
+<img src="assets/images/result.png" width="100%">
+</p>
+```
+
+---
+
+# 📂 Project Structure
+
+```text
 Human-Development-Index-Prediction/
 │
 ├── dataset/
 ├── models/
+├── src/
 ├── static/
 ├── templates/
-├── src/
-├── public/
 ├── app.py
 ├── train_model.py
+├── package.json
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
+```
 
-**Installation**
-git clone https://github.com/your-username/Human-Development-Index-Prediction.git
+---
+
+# ⚙ Installation
+
+```bash
+git clone https://github.com/siriboddu/Human-Development-Index-Prediction.git
 
 cd Human-Development-Index-Prediction
 
 pip install -r requirements.txt
 
+npm install
+
 python train_model.py
 
 python app.py
+```
 
-**Model Workflow**
-Data Collection
-Data Preprocessing
-Exploratory Data Analysis
-Feature Engineering
-Model Training
-Model Evaluation
-Prediction
-Web Deployment
+---
 
-**Future Enhancements**
-Real-time UNDP data integration
-Interactive world map visualization
-Advanced model comparison
-Cloud deployment
-User authentication
-AI-powered development recommendations
+# 📊 Model Performance
 
-**Team**
+| Metric | Value |
+|---------|------:|
+| R² Score | 99.47% |
+| MAE | 0.0098 |
+| RMSE | 0.0122 |
 
-**Team Lead**
+---
 
-Boddu Siri
+# 🚀 Future Enhancements
 
-**Team Members**
-Valluru Pujitha
+- 🌍 Real-time UNDP Data Integration
+- 🗺 Interactive World Map
+- 🤖 AI-powered Recommendations
+- ☁ Cloud Deployment
+- 👤 User Authentication
+- 📱 Mobile Application
 
-**Academic Information**
+---
 
-Department: Artificial Intelligence & Data Science
+# 👥 Team
 
-Project Type: SkillWallet Capstone Project
+| Role | Name |
+|------|------|
+| Team Lead | **Boddu Siri** |
+| Team Member | Valluru Pujitha |
 
-Domain: Healthcare | Machine Learning | Data Science
+---
 
-**Model Performance Characteristics**
-Our trained Linear Regression model performs with the following statistical traits on unseen test indicators (80-20 partition):
+# 🎓 Academic Information
 
-**R-squared Coefficient (R2):** 99.47(Excellent fit relative to the mathematical index)
-**Mean Absolute Error (MAE):** 0.0098
-**Root Mean Squared Error (RMSE):** 0.0122
+| Field | Details |
+|------|---------|
+| Department | Artificial Intelligence & Data Science |
+| Project | SkillWallet Capstone Project |
+| Domain | Healthcare • Machine Learning • Data Science |
 
-**License**
+---
 
-This project has been developed exclusively for academic and educational purposes as part of the SkillWallet Capstone Program.
+# 📜 License
+
+This project was developed for academic and educational purposes as part of the SkillWallet Capstone Project.
+
+---
+
+<div align="center">
+
+## ⭐ If you like this project, please consider giving it a Star!
+
+Made with ❤️ using Python, React, Flask, and Machine Learning.
+
+</div>
